@@ -13,8 +13,9 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  # Visual Studio build v1
-- task: VSBuild@1
+  
+-
+ task: VSBuild@1
   inputs:
     solution: '**\*.sln' # string. Required. Solution. Default: **\*.sln.
     #vsVersion: 'latest' # 'latest' | '17.0' | '16.0' | '15.0' | '14.0' | '12.0' | '11.0'. Visual Studio Version. Default: latest.
