@@ -13,8 +13,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  
--
+
  task: VSBuild@1
   inputs:
     solution: '**\*.sln' # string. Required. Solution. Default: **\*.sln.
